@@ -79,21 +79,21 @@ def main():
         resp = str(res)
         if resp == '<Response [204]>':
             print(bar)
-            print("\n\033[1;32;40m [+] Data Nathoo ... [+]")
+            print("\n\033[1;32;40m [+] Better Luck next time ... [+]")
             print(bar)  
         elif resp == '<Response [200]>':
             mm = mm + 1
             print(bar)
-            print("\n\033[1;32;40m [+] Data Awa..!!!! Balance Eka Balanna ... [+]")
+            print("\n\033[1;32;40m [+] Jackpot ! ... [+]")
             print(bar)
         else:
             print(bar)
-            print("\n\033[1;31;40m [+] Poddak Check karala balanna Block Unada Manda... [+]")
+            print("\n\033[1;31;40m [+] Beware ... Maybe blocked... [+]")
             print(bar)
         
 
         ss+=1
-        print("\033[1;0;40m\n",str(ss)," kin ",str(mm), "Goda....  Eelaga request Ekata Poddak inna...",end="")
+        print("\033[1;0;40m\n",str(ss)," kin ",str(mm), "Wait for Next turn...",end="")
         for i in range(180):
             
             pr = i/180*100
@@ -107,13 +107,13 @@ def main():
 
 
 def again():
-    again = input('\033[1;0;40m\nAye Parak Karanawada (y/n) - ')
+    again = input('\033[1;0;40m\nTry Again? (y/n) - ')
     if again == "y" or again == "Y":
         main()
     elif again == "n" or again == "N":
         quit()
     else:
-        print('\033[1;31;40my hari n hari witharai..')
+        print('\033[1;31;40my So Long.....')
         again()
 
 
