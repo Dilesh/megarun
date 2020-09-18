@@ -93,7 +93,7 @@ def main():
         
 
         ss+=1
-        print("\033[1;0;40m\n",str(ss)," kin ",str(mm), "Wait for Next turn...",end="")
+        print("\033[1;0;40m\n",str(ss)," try and won ",str(mm), "Wait for Next turn...",end="")
         for i in range(180):
             
             pr = i/180*100
